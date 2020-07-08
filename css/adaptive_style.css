@@ -1,0 +1,724 @@
+@media screen and (min-width: 1000px) {
+
+	#dws-menu, header label {
+	display: none;
+}
+	.active {
+    color: #008fd5;
+	border-color: #008fd5;
+	transition: transform 0.3s ease;
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.Arrow{
+	transition: transform 0.3s ease;
+	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+}
+@media screen and (max-width: 1200px) {
+	
+	.Top_line_blog b{
+		font-size: 18px;
+	}
+	.Top_line_blog a{
+		font-size: 14px;
+	}
+	.Data h5{
+		font-size: 26px;
+	}
+	.Data span{
+		font-size: 6px;
+	}
+	.Navigation li{
+		font-size: 7px;
+	}
+	.Who h4{
+		font-size: 13px;
+	}
+	.Who span{
+		font-size: 9px;
+	}
+	.Who::after{
+    	border: 13px solid transparent;
+    	border-left: 13px solid  #23323a;
+    	border-top: 13px solid  #23323a;
+    	margin: 25px 0 0 50px;
+	}
+	.Title_scan{
+		font-size: 10px;
+	}
+
+}
+@media screen and (max-width: 1150px){
+	
+	.Post_text h3{
+		font-size: 13px;
+	}
+	.Data h5{
+		font-size: 22px;
+	}
+	.Data span{
+		font-size: 5px;
+	}
+	.Who h4{
+		font-size: 12px;
+	}
+	.Who span{
+		font-size: 7px;
+	}
+	.Who::after{
+    	border: 12px solid transparent;
+    	border-left: 12px solid  #23323a;
+    	border-top: 12px solid  #23323a;
+    	margin: 25px 0 0 50px;
+	}
+	.Comment_text b{
+		font-size: 60px;
+	}
+	.Comment h4, .Comment span{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 1100px){
+	
+	.Point_pages{
+		width: 100%;
+	}
+	.Keyboard_photo img{
+		width: 150%;
+	}
+	.Point_logo img{
+		height: 30px;
+	}
+	.Point_text h4{
+		font-size: 15px;
+	}
+	.Point_text span{
+		font-size: 11px;
+	}
+	.Social_team img{
+		height: 12px;
+	}
+	.Title_scan{
+		font-size: 8px;
+	}
+	#Social img{
+		height: 10px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	
+	.Menu a:hover .Arrow, .Menu a:hover, .Menu a:active .Arrow, .Menu a:active{
+		color: #008fd5;
+		border-color: #008fd5;
+		transform: none;		
+	}
+	.Actv{
+		color: #008fd5
+	}
+	.active {
+    	color: #008fd5;
+		border-color: #008fd5;
+		transform: none;
+	}
+	.Bottom{
+		height: 58px;
+	}
+	header label {
+		margin: auto 0;
+		width: 30px;
+		cursor: pointer;
+		font-size: 20px;
+		display: block;
+	}
+	.Menu {
+		margin-top: 33px;
+		position: absolute;
+		left: -200px;
+		transition: 0.5s;
+	}
+	.Menu a{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		font-size: 15px;
+		width: 30%;
+		background: #accdda;
+		display: block;
+	}
+	.Bottom a.icon{
+		display: block;
+		font-size: 20px;
+	}
+	#dws-menu:checked ~ .Menu {
+		left: 0;
+		transition: 1s;
+	}
+	.block{
+		margin-top: 35px;
+		margin-bottom: 45px;
+	}
+	.block_logo img{
+		padding: 15px;
+	}
+	.block_text h4{
+		font-size: 15px;
+	}
+	.block_text span{
+		font-size: 8px;
+	}
+	
+	.Top_line_blog b{
+		font-size: 16px;
+	}
+	.Top_line_blog a{
+		font-size: 12px;
+	}
+	.Post_text h3{
+		font-size: 13px;
+	}
+	.Data h5{
+		font-size: 20px;
+	}
+	.Data span{
+		font-size: 5px;
+	}
+	.Title_scan{
+		font-size: 9px;
+	}
+	.Navigation li{
+		font-size: 6px;
+	}
+	.Who h4{
+		font-size: 12px;
+	}
+	.Who span{
+		font-size: 7px;
+	}
+	.Who::after{
+    	border: 12px solid transparent;
+    	border-left: 12px solid  #23323a;
+    	border-top: 12px solid  #23323a;
+    	margin: 25px 0 0 30px;
+	}
+	.Comment_text b{
+		font-size: 50px;
+	}
+	.Comment h4, .Comment span{
+		font-size: 10px;
+	}
+	.Title_scan{
+		font-size: 8px;
+	}
+	.Navigation li{
+		font-size: 6px;
+	}
+	.Container_team{
+		flex-wrap: wrap;
+	}
+	.Team_person{
+		width: 40%;
+		margin: 30px auto;
+	}
+	.Social_team img{
+		height: 15px;
+	}
+	.Comment_twit h4{
+		font-size: 14px;
+	}
+	.Comment_twit span{
+		font-size: 10px;
+	}
+	.Content_footer{
+		flex-wrap: wrap;
+	}
+	.Footer_logo,.Footer_posts,.Content_post,.Footer_contacts{
+		width: 100%;
+		margin-right: 0;
+	}
+	#Navigation_footer li{
+		font-size: 10px;
+	}
+	.Contacts_logo{
+		margin-right: 15px;
+	}
+	.Newsletter{
+		width: 100%;
+	}
+	#Social a{
+		margin-right: 0;
+	}
+	.Footer_logo .Top_logo span{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 930px){
+	
+	.Top_line_blog b{
+		font-size: 14px;
+	}
+	.Top_line_blog a{
+		font-size: 12px;
+	}
+	.Who::after{
+    	border: 12px solid transparent;
+    	border-left: 12px solid  #23323a;
+    	border-top: 12px solid  #23323a;
+    	margin: 25px 0 0 15px;
+	}
+	.Navigation li{
+		font-size: 5px;
+	}
+}
+@media screen and (max-width: 900px){
+
+	.Menu a{
+		font-size: 13px;
+	}
+	.Container_logo img{
+			width: 120%;
+	}
+	.Button_area .Button_clear{
+		background-position: 90% 54.8%;
+	}
+}
+@media screen and (max-width: 850px){
+	
+	.Who::after{
+    	border: 17px solid transparent;
+    	border-left: 17px solid  #23323a;
+    	border-top: 17px solid  #23323a;
+    	margin: 25px 0 0 65px;
+	}
+	.Content_blog{
+		flex-wrap: wrap;
+	}
+	.Post{
+		width: 100%;
+	}
+	.Accordeon, .People_say{
+		margin-top: 30px;
+		width: 45%;
+	}
+	.Navigation li{
+		font-size: 10px;
+	}
+	.Data h5{
+		font-size: 34px;
+	}
+	.Data span{
+		font-size: 10px;
+	}
+	.Title_scan{
+		font-size: 12px;
+	}
+	.Logo_twit:after{
+		border: 15px solid transparent; 
+		border-left: 15px solid #1f9cda; 
+		border-top: 15px solid #1f9cda;
+		margin: -5px 0px 0px 0px;
+	}
+	.Comment_twit h4{
+		font-size: 13px;
+	}
+	.Comment_twit span{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 800px){
+	.Logo_ship{
+		margin-top: 45px;
+	}
+	.First_tagline{
+		font-size: 60px;
+		margin-top: 150px;
+	}
+	.block{
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+	.block_logo img{
+		padding: 10px;
+	}
+	.block_text h4{
+		font-size: 12px;
+	}
+	.block_text span{
+		font-size: 7px;
+	}
+	.Data h5{
+		font-size: 30px;
+	}
+	.Data span{
+		font-size: 8px;
+	}
+	.Top_line_blog b{
+		font-size: 12px;
+	}
+	.Top_line_blog a{
+		padding: 1% 2%;
+	}
+	.Comment_twit h4{
+		font-size: 11px;
+	}
+	.Comment_twit span{
+		font-size: 9px;
+	}
+	.Project_title h5{
+		font-size: 14px;
+	}
+	.Project_title span{
+		font-size: 9px;
+	}
+}
+@media screen and (max-height: 700px) {
+	
+	.Logo_ship{
+		margin-top: 45px;
+	}
+	.First_tagline{
+		margin-top: 150px;
+	}
+}
+@media screen and (max-height: 700px) {
+
+	.Logo_ship{
+		margin-top: 25px;
+	}
+	.First_tagline{
+		margin-top: 110px;
+	}
+	.Second_tagline{
+		margin-top: 20px
+	}
+}
+@media screen and (max-width: 700px){
+
+	.Social_top span{
+		font-size: 7px;
+	}
+	.Social_top img{
+		height: 10px;
+	}
+	.block{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.Plus_line{
+		flex-wrap: wrap;
+	}
+	.block{
+		width: 50%;
+	}
+	.block_logo img{
+		padding: 15px;
+	}
+	.block_text h4{
+		font-size: 15px;
+	}
+	.block_text span{
+		font-size: 8px;
+	}
+	
+	.Data h5{
+		font-size: 26px;
+	}
+	.Data span{
+		font-size: 6px;
+	}
+	.Top_line_blog b{
+		font-size: 10px;
+	}
+	.Top_line_blog a{
+		font-size: 10px;
+	}
+	.Navigation li{
+		font-size: 9px;
+	}
+	.Who::after{
+    	border: 13px solid transparent;
+    	border-left: 13px solid  #23323a;
+    	border-top: 13px solid  #23323a;
+    	margin: 25px 0 0 35px;
+	}
+	.Button_area .Button_clear{
+		padding-right: 5%;
+		background-position: 90% 54.8%;
+	}
+	.Input_area input, .Input_area textarea{
+		width: 90%;
+	}
+	.Comment_twit h4{
+		font-size: 10px;
+	}
+	.Comment_twit span{
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 600px){
+	.prev, .next{
+		padding: 10px;
+	}
+	.Name_company {
+		font-size: 10px;
+		margin: auto 0;
+	}
+	.Logo_ship{
+		margin-top: 30px;
+	}
+	.First_tagline{
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.Second_tagline{
+		font-size: 7px;
+		margin-top: 30px;
+	}
+	.Navigation li{
+		font-size: 8px;
+	}
+	.Who::after{
+    	border: 10px solid transparent;
+    	border-left: 10px solid  #23323a;
+    	border-top: 10px solid  #23323a;
+    	margin: 25px 0 0 30px;
+	}
+	.Title_scan{
+		font-size: 8px;
+	}
+	.Badge{
+		font-size: 10px;
+	}
+	.Photo_first img{
+		width: 100%;
+	}
+	.Photo_second img{
+		width: 80%;
+	}
+	.Keyboard_photo img{
+		width: 200%;
+	}
+	.Team_photo img{
+		width: 70%;
+	}
+	.Info_team h4{
+		font-size: 16px;
+	}
+	.Info_team h5{
+		font-size: 10px;
+	}
+	.Info_team p{
+		font-size: 10px;
+	}
+	.Social_team img {
+		height: 13px;
+	}
+	.Text_galery h3{
+		font-size: 14px;
+	}
+	.Text_galery span{
+		font-size: 9px;
+	}
+}
+@media screen and (max-width: 560px){
+	
+	.Menu a{
+		width: 40%;
+	}
+	.Top_line_blog b{
+		font-size: 8px;
+	}
+	.Who::after{
+    	border: 8px solid transparent;
+    	border-left: 8px solid  #23323a;
+    	border-top: 8px solid  #23323a;
+    	margin: 25px 0 0 15px;
+	}
+}
+@media screen and (max-width: 500px){
+	
+	.Name_company{
+		font-size: 8px;
+	}
+	.Social_top span{
+		font-size: 5px;
+	}
+	.Social_top img{
+		height: 8px;
+	}
+	#Border{
+		height: 8px;
+	}
+	.Top_line_blog a{
+		display: none;
+	}
+	.Top_line_blog b{
+		font-size: 12px;
+		margin-right: 0;
+	}
+	.Navigation li{
+		font-size: 6px;
+	}
+	.Under_heading{
+		font-size: 15px;
+	}
+	.Team_person{ 
+		width: 60%;
+	}
+	.Team_photo img{
+		width: 70%;
+	}
+	.Info_team h4{
+		font-size: 16px;
+	}
+	.Info_team h5{
+		font-size: 10px;
+	}
+	.Info_team p{
+		font-size: 10px;
+	}
+	.Social_team img {
+		height: 13px;
+	}
+	.Comment_twit{
+		margin-left: 10px;
+	}
+	.Comment_twit h4{
+		font-size: 8px;
+	}
+	.Comment_twit span{
+		font-size: 5px;
+	}
+	.Logo_twit:after{
+		border: 10px solid transparent; 
+		border-left: 10px solid #1f9cda; 
+		border-top: 10px solid #1f9cda;
+		margin: 0px 0px 0px 0px;
+	}
+	.Logo_twit img{
+		margin-top: 30%;
+	}
+	.Prev_btn, .Next_btn{
+		padding: 0 5px;
+	}
+}
+@media screen and (max-width: 420px){
+	
+	.Title_scan{
+		font-size: 7px;
+		padding-left: 
+	}
+	.Badge{
+		
+	}
+	.Who::after{
+    	border: 10px solid transparent;
+    	border-left: 10px solid  #23323a;
+    	border-top: 10px solid  #23323a;
+    	margin: 25px 0 0 0px;
+	}
+	.Who h4{
+		font-size: 8px;
+	}
+	.Who span{
+		font-size: 6px;
+	}
+	.Comment_text b{
+		font-size: 30px;
+	}
+	.Comment h4, .Comment span{
+		font-size: 7px;
+	}
+	.Navigation li{
+		font-size: 5px;
+	}
+	.Post_text h3{
+		font-size: 10px;
+	}
+	.Post_text span{
+		font-size: 8px;
+	}
+	.Data h5{
+		font-size: 20px;
+	}
+	.Data span{
+		font-size: 4.5px;
+	}
+	.Data img{
+		width: 80%;
+	}
+	.First,.Second,.Third{
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 400px){
+	
+	.Name_company{
+		font-size: 14px;
+	}
+	.Menu a{
+		width: 50%;
+	}
+	.Logo_ship{
+		margin-top: 20px;
+	}
+	.Logo_ship img{
+		width: 12%;
+	}
+	.First_tagline{
+		margin-top: 60px;
+		font-size: 35px;
+	}
+	.Second_tagline{
+		margin-top: 20px
+		font-size: 10px;
+	}
+	.Social_top{
+		display: none;
+	}
+	.Button_area .Button_clear{
+		padding-right: 7%;
+	}
+	.block_logo img{
+		width: 15%;
+		margin: 0 auto;
+		padding: 10px;
+	}
+	.block_text h4{
+		font-size: 10px;
+	}
+	.block_text span{
+		font-size: 6px;
+	}
+	.Navigation li{
+		font-size: 4px;
+	}
+	.Data h5{
+		font-size: 20px;
+	}
+	.Data span{
+		font-size: 4.5px;
+	}
+	.Accordeon{
+		width: 80%;
+	}
+	.Scan{
+		width: 80%;
+	}
+	.People_say{
+		width: 60%;
+	}
+	.Point_text h4{
+		font-size: 12px;
+	}
+	.Point_text span{
+		font-size: 9px;
+	}
+	.Point_logo img{
+		height: 25px;
+	}
+	.Social_team img{
+		height: 10px;
+	}
+}
